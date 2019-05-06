@@ -68,7 +68,7 @@ def GetImgEncode(imgpath, urlpath, known_face_encodings, known_face_names):
 imgpath = "img/"
 
 # Ipcam url
-url = 'rtsp://admin:admin@192.168.101.100/Media/stream1'
+url = 'rtsp://user:password@IP/Media/stream1'
 
 # roi range
 (x1, x2, y1, y2) = (200, 800, 300, 800)
