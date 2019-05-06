@@ -29,7 +29,7 @@ class ipcamCapture:
             self.status, self.Frame = self.capture.read()
         self.capture.release()
 
-url = 'rtsp://admin:admin@192.168.101.100/Media/stream2'
+url = 'rtsp://user:password@IP/Media/stream2'
 cap = cv2.VideoCapture(url)
 ipcam = ipcamCapture(cap)
 ipcam.start()
